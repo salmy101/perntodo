@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS todo CASCADE;
+
+CREATE TABLE todo (
+  id SERIAL PRIMARY KEY,
+  description VARCHAR(255)
+);
+
+
