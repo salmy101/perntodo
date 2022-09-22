@@ -49,7 +49,7 @@ const ListTodo = () => {
             <tr>
               <td>{todo.description}</td>
               <td>
-                <EditTodo />
+                <EditTodo todo={todo} />
               </td>
               <td>
                 <button type="button" class="btn btn-danger" onClick={() => deleteTodo(todo.id)}>
