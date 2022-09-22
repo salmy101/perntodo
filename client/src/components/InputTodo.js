@@ -15,27 +15,12 @@ const InputTodo = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
       });
-    console.log("response here",response)
-      // window.location = "/";
+     console.log("response here",response)
+     setDescription("")
     } catch (err) {
       console.error(err);
     }
   };
-
-
-
-  // const onSubmitForm = (e) => {
-  //     e.preventDefault();
-
-  //     axios.post("http://localhost:5000/todos", {
-  //       description: description
-  //     })
-  //     .then((res) => {
-  //       console.log("hello")
-  //       console.log(res)
-  //     })
-  // }
-
 
   return (
     <Fragment>
