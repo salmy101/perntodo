@@ -1,7 +1,7 @@
-# Bookd Up
+# Todo List
 
 ## About
-A litle refresh on the CRUD operations using the PERN stack. Also an opprotunity to learn async await, http fetch requests, and more.
+A little refresh on the CRUD operations using the PERN stack. Also an opprotunity to learn async await, http fetch requests, and more.
 
 
 ### Home Page
